@@ -1,0 +1,152 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: 	#101720;
+}
+
+.card{
+    background: linear-gradient(110deg, #c33764, #1d2671);
+    width: 90%;
+    max-width: 40%;
+    text-align: center;
+    margin: 65px auto 0;
+    padding: 45px 30px;
+    color: white;
+    border-radius: 30px;
+}
+
+.search-area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-area input{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 25px;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+
+.search-area input:focus{
+    box-shadow: 0px 0px 6px 2px white;
+    transition: .3s;
+}
+
+.search-area button{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.search-area button img{
+    height: 22px;
+}
+
+.search-area button:hover{
+    box-shadow: 0px 0px 10px 2px white;
+    transition: .3s;
+}
+
+.weather-icon{
+    width: 125px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 35px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    margin-top: 40px;
+    display: none;
+}
+
+.text-container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.outer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.text{
+    margin-top: 50px;
+    font-size: 3rem;
+    color: white;
+    border-right: 5px solid;
+    padding-right: 10px;
+    border-color: white;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: 
+    
+        typing 3.5s,
+        cursor 0.5s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent;}
+}
+
+@keyframes typing{
+    from { width: 0 }
+}
+  

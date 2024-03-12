@@ -149,4 +149,10 @@ body{
 @keyframes typing{
     from { width: 0 }
 }
+
+@media (max-width: 550px){
+    .text{
+        font-size: 2.5rem;
+    }
+}
   
